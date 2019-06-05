@@ -10,7 +10,7 @@ while current_savings < portion_down_payment:
     current_savings = (current_savings +(current_savings * (r/12))) + ((annual_salary/12)*portion_saved)
     num_months= num_months+1
     if current_savings >= portion_down_payment:
-        print("it will take you" + str(num_months) + )"months to save up for your house")
+       print("it will take you" + str(num_months) + "months to save up for your house")
 
 
 
